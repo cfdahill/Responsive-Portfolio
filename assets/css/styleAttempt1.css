@@ -1,0 +1,175 @@
+/*appears in all pages*/
+body{
+    background-image: url(../images/burried/burried.png);
+    overflow:scroll;
+}
+
+header{
+    border:solid black;
+    background:#5f9ea0;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+.chay {
+    font-size: 42px; 
+    background:#50514f;
+    color:#ca4643;
+
+}
+
+.links{
+    background:#50514f;
+    color: #ca4643;
+    font-size:24px; 
+}
+
+a {
+    color: #ca4643;
+}
+
+.picture{
+    float:left;
+    margin: 10px 10px;
+}
+
+section{
+  background:#f5deb3;
+}
+
+.main{
+    display:block;
+    float: left;
+    width:640px;
+    margin: 10px 20px 10px 145px;
+    padding:5px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+h2{
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size: 24px;
+}
+
+p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height:150%;
+}
+
+.connect{
+    padding:5px;
+    display: block;
+    width: 260px;
+    float:left;
+    margin: 10px 20px 50px 20px;
+}
+
+.imageLink{
+    width: 80px;
+    height: 80px;
+    margin-left:5px;
+    float:left;
+}
+
+footer{
+    clear:both;
+    display:block;
+    background:cadetblue;
+    text-align:center;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    height:20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*only on index*/
+#myPicture {
+    transform: rotate(90deg);
+    width:200px;
+    margin: 10px 10px;
+}
+
+#education {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height:150%;
+    list-style-type: circle;
+    padding-right: 10px;
+    margin-left:20px;
+}
+
+/*only on cantact*/
+form {
+    line-height:150%;
+}
+
+.textbox{
+    width:300px;
+}
+
+#message{
+    width:300px;
+    height:150px;
+}
+
+/*only on portfolio*/
+.portfolio{
+    display:block;
+    border: solid black;
+    float: left;
+    padding: 5px 0px 5px 5px;
+    margin: 50px 50px;
+    text-align:center;
+    background:white;
+}
+
+.projectImage{
+    width:200px;
+}
+
+.projLink {
+    text-decoration: none;
+    font-size:18px;
+}
+
+/*media queries*/
+@media screen and (max-width: 980px){
+    header{
+        padding:50px;
+    }
+    .chay{
+        padding: 10px 10px;
+        margin: -12px 67px 0px 91px;
+        display:block;
+        float:left;
+    }
+    .links{
+        padding: 10px 10px;
+        display:block;
+        float:left;
+        margin: 6px 0px 0px 46px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 640px){
+    header{
+        position: static;
+    }
+    .chay{
+       margin: 0px; 
+       position: absolute;
+       top: 14px;
+    }
+    .links {
+       margin: 0px;
+       position: absolute;
+       top: 25px;
+       right: -408px; 
+    }
+}
